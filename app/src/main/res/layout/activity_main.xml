@@ -55,19 +55,15 @@
             android:textColor="#757575" />
 
         <ScrollView
+            android:id="@+id/tvLogsHistory"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <LinearLayout
+                android:id="@+id/tvLogsHistoryLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" >
-
-                <TextView
-                    android:id="@+id/tvLogsHistory"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp" />
+                android:orientation="vertical">
 
             </LinearLayout>
 
